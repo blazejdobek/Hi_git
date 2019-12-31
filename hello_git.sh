@@ -124,7 +124,7 @@ function get_element_of_letter_matrix() {
 
 
 # start date
-year=2017
+year=2019
 month=12
 day=30
 
@@ -135,7 +135,7 @@ max_columns=4
 
 number_of_drawn_letter=0
 
-while (( year < 2019 )); do
+while (( year < 2020 )); do
 
 
 #- - - - - - - - - -
@@ -164,16 +164,16 @@ while (( year < 2019 )); do
 
   case $number_of_drawn_letter in
     0 ) letter=( "${empty_letter_matrix[@]}" );;
-    1 ) letter=( "${h_letter_matrix[@]}" );;
+    1 ) letter=( "${empty_letter_matrix[@]}" );;
     2 ) letter=( "${empty_letter_matrix[@]}" );;
-    3 ) letter=( "${e_letter_matrix[@]}" );;
+    3 ) letter=( "${empty_letter_matrix[@]}" );;
     4 ) letter=( "${empty_letter_matrix[@]}" );;
-    5 ) letter=( "${l_letter_matrix[@]}" );;
-    6 ) letter=( "${empty_letter_matrix[@]}" );;
-    7 ) letter=( "${l_letter_matrix[@]}" );;
+    5 ) letter=( "${h_letter_matrix[@]}" );;
+    6 ) letter=( "${i_letter_matrix[@]}" );;
+    7 ) letter=( "${exclamation_mark_matrix[@]}" );;
     8 ) letter=( "${empty_letter_matrix[@]}" );;
-    9 ) letter=( "${o_letter_matrix[@]}" );;
-    10 ) letter=( "${exclamation_mark_matrix[@]}" );;
+    9 ) letter=( "${empty_letter_matrix[@]}" );;
+    10 ) letter=( "${empty_letter_matrix[@]}" );;
     * ) letter=();;
   esac
 
