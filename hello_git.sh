@@ -135,7 +135,7 @@ max_columns=4
 
 number_of_drawn_letter=0
 
-while (( year < 2020 )); do
+while (( year < 2021 )); do
 
 
 #- - - - - - - - - -
