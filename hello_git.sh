@@ -124,9 +124,9 @@ function get_element_of_letter_matrix() {
 
 
 # start date
-year=2019
-month=12
-day=30
+year=2020
+month=1
+day=5
 
 row_index=0
 column_index=0
@@ -201,8 +201,8 @@ while (( year < 2021 )); do
   number_of_commits=0
 
   case $draw_pixel in
-    0 ) number_of_commits=10 ;;
-    1 ) number_of_commits=100 ;;
+    0 ) number_of_commits=1 ;;
+    1 ) number_of_commits=10 ;;
   esac
 
   while [ $number_of_commits -gt 0 ]; do
