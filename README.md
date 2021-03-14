@@ -4,13 +4,13 @@
 3. [Git stash](https://github.com/blazejdobek/Hi_git/blob/master/README.md#git-stash)
 4. [Modify commits](https://github.com/blazejdobek/Hi_git/blob/master/README.md#modify-commits)
 5. [Undoing changes that aren't on staged area](https://github.com/blazejdobek/Hi_git/blob/master/README.md#undoing-changes-that-arent-on-staged-area)
-6. 
-7. 
-8. [You need to change git history, but other people already download those changes]()
+6. [You realised that you make changes // comiits to wrong branch](https://github.com/blazejdobek/Hi_git/blob/master/README.md#you-realised-that-you-make-changes--comiits-to-wrong-branch)
+7. [You need to change git history, but other people already download those changes](https://github.com/blazejdobek/Hi_git/blob/master/README.md#you-need-to-change-git-history-but-other-people-already-download-those-changes)
+8. 
 
 ------------------------------------------------------------------------------------
 
-1) ### Standard workflow
+### Standard workflow
 1) `git clone <url> <where to clone>`
 2) `git branch <branch_name>`
 3) `git checkout <branch_name>`
@@ -32,14 +32,14 @@
 
 ------------------------------------------------------------------------------------
 
-2) ### Gather information about repository
+### Gather information about repository
 * `git remote -v` # from where code is fetch and to where code is push
 * `git branch -a` # list of all branches (locally and remotely)
 * `git branch --merged` # branches merged to current branch so far
 
 ------------------------------------------------------------------------------------
 
-3) ### Git stash
+### Git stash
 --> tip: stash are shared by all branches
 * `git stash save "Pro memoria"`
 * `git stash list`
@@ -50,18 +50,28 @@
 
 ------------------------------------------------------------------------------------
 
-4) ### Undoing changes that aren't on staged area
+### Undoing changes that aren't on staged area
 `git checkout <file>` # undoing changes in file, which is not on staged area
 
 ------------------------------------------------------------------------------------
 
-5) ### Modify commits
+### Modify commits
 * `git commit --amend -m "Correct message"` # changing message in last commit. This will change unique hash assigned to ech commit --> change git history. You want to change history only when you are the only one who have acces to those changes. 
 * `git commit --amend` # adding file(s) on your current staged area to last commit. This will change git history. Btw you can also change message from here.
 * `git log --stat` # to ensure that you haven't screwed up things
 
 ------------------------------------------------------------------------------------
 
+### You realised that you make changes // comiits to wrong branch
+* `git log` # to copy unique hash of your commit -> you don't have to copy all hash :)
+* `git checkout <branch_you_should_have_been>`
+* `git cherry-pick <hash>` # create commit based on commit with hash you given (but don't delete that unwanted one)
+* `git checkout <branch_you_accidently_littered>`
+* here we will use the power of `git reset` - pick only one. Choose wisely!
+	* `git reset --soft <hash>` # revert changes to staged area
+	* `git reset <hash> # git reset --mixed <hash>` ==> default option; revert changes to working directory (instead of staged area)
+	* `git reset --hard <hash>` # revert all tracked files to state they were, but leave untracked files alone
+	* `git clean -df` # f for files, d for directors --> remove all untracked dirs and files
 
 
 ------------------------------------------------------------------------------------
@@ -77,16 +87,7 @@
 
 ------------------------------------------------------------------------------------
 
-### You realised that you make changes // comiits to wrong branch
-* `git log` # to copy unique hash of your commit -> you don't have to copy all hash :)
-* `git checkout <branch_you_should_have_been>`
-* `git cherry-pick <hash>` # create commit based on commit with hash you given (but don't delete that unwanted one)
-* `git checkout <branch_you_accidently_littered>`
-* here we will use the power of `git reset` - pick only one. Choose wisely!
-	* `git reset --soft <hash>` # revert changes to staged area
-	* `git reset <hash> # git reset --mixed <hash>` ==> default option; revert changes to working directory (instead of staged area)
-	* `git reset --hard <hash>` # revert all tracked files to state they were, but leave untracked files alone
-	* `git clean -df` # f for files, d for directors --> remove all untracked dirs and files
+
 
 ------------------------------------------------------------------------------------
 
