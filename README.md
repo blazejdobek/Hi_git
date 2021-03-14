@@ -1,4 +1,4 @@
-Hi, Hey, Yo, Salaam, Ohayo, Namaste, Salute, 
+Hi, Hey, Yo, Ohayo, Salute, 
 
 # Table of Contents
 1. [Standard workflow](https://github.com/blazejdobek/Hi_git/blob/master/README.md#standard-workflow)
