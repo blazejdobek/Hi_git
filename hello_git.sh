@@ -110,6 +110,15 @@ exclamation_mark_matrix=(
 "0 0 1 0"
 "0 0 0 0")
 
+smile_mark_matrix=(
+"0 0 0 0"
+"0 0 1 0"
+"0 1 0 1"
+"0 0 0 1"
+"0 1 0 1"
+"0 0 1 0"
+"0 0 0 0")
+
 
 function get_element_of_letter_matrix() {
   matrix=("${!1}")
