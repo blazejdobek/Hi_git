@@ -1,22 +1,22 @@
 ### Standard workflow
-1) git clone <url> <where to clone>
-2) git branch <branch_name>
-3) git checkout <branch_name>
-4) <Some work happen here>
-5) git diff
-6) git add <file> // git add .
-7) git commit -m "SOME TEXT - USE VERBS"
-8) git status
-9) git push -u orgin <branch_name> # first push on new branch - it tells git to associate local <branch_name> with remote branch with same name
-10) git pull # every time but first
-11) git push # evry time but first
-12) git checkout master # switch branch
-13) git pull orgin master # make sure to work on newest version on codebase
-14) git merge <branch_name> # MERGE TIME!
-15) git push origin master
-16) git branch --merged # confirme that we can delete our branch
-17) git branch -d <branch_name> # delete branch only locally
-18) git push origin --delete <branch_name>
+1) `git clone <url> <where to clone>`
+2) `git branch <branch_name>`
+3) `git checkout <branch_name>`
+4) > Some work happen here'
+5) `git diff`
+6) `git add <file> // git add .`
+7) `git commit -m "SOME TEXT - USE VERBS"`
+8) `git status`
+9) `git push -u orgin <branch_name>` # first push on new branch - it tells git to associate local <branch_name> with remote branch with same name
+10) `git pull` # every time but first
+11) `git push` # evry time but first
+12) `git checkout master` # switch branch
+13) `git pull orgin master` # make sure to work on newest version on codebase
+14) `git merge <branch_name>` # MERGE TIME!
+15) `git push origin master`
+16) `git branch --merged` # confirme that we can delete our branch
+17) `git branch -d <branch_name>` # delete branch only locally`
+18) `git push origin --delete <branch_name>`
 
 ------------------------------------------------------------------------------------
 
