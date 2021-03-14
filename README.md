@@ -1,3 +1,5 @@
+Hi, Hey, Yo, Salaam, Ohayo, Namaste, Salute, 
+
 # Table of Contents
 1. [Standard workflow](https://github.com/blazejdobek/Hi_git/blob/master/README.md#standard-workflow)
 2. [Gather information about repository](https://github.com/blazejdobek/Hi_git/blob/master/README.md#gather-information-about-repository)
