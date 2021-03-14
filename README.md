@@ -6,7 +6,8 @@
 5. [Undoing changes that aren't on staged area](https://github.com/blazejdobek/Hi_git/blob/master/README.md#undoing-changes-that-arent-on-staged-area)
 6. [You realised that you make changes // comiits to wrong branch](https://github.com/blazejdobek/Hi_git/blob/master/README.md#you-realised-that-you-make-changes--comiits-to-wrong-branch)
 7. [You need to change git history, but other people already download those changes](https://github.com/blazejdobek/Hi_git/blob/master/README.md#you-need-to-change-git-history-but-other-people-already-download-those-changes)
-8. 
+8. ["Those changes you delete with git reset --hard -> we need them and we need them NOW!"](https://github.com/blazejdobek/Hi_git/blob/master/README.md#those-changes-you-delete-with-git-reset---hard---we-need-them-and-we-need-them-now)
+9. [Other](https://github.com/blazejdobek/Hi_git/blob/master/README.md#other)
 
 ------------------------------------------------------------------------------------
 
@@ -81,6 +82,15 @@
 
 ------------------------------------------------------------------------------------
 
+### "Those changes you delete with git reset --hard -> we need them and we need them NOW!"
+* `git reflog` # track garbages for 30 days (or so, not sure here :)) --> show commits in order you last referenced them
+* `git checkout <hash>` # bring pointed commit back - you are in detached HEAD state, not on some branch -- all things from here will be eventually deleted permanently
+* `git branch <some_cool_name>` # create new branch with copy of recovered commit(s)
+* `git checkout <some_cool_name>` # ensure that you don't meesed up this shit!
+* ... and don't forget to praise genious who came with this feature
+
+------------------------------------------------------------------------------------
+
 ### Other
 * `git add .` // `git add <some_location>` // `git add -A` # -A add all files from entire files tree, even from up-directories. In contrast - . don't add files from up-directories.
 * `git add -u` // `git add -u <some_location>` # update, don't add any new files
@@ -88,13 +98,4 @@
 ------------------------------------------------------------------------------------
 
 
-
-------------------------------------------------------------------------------------
-
-### "Those changes you delete with git reset --hard -> we need them and we need them NOW!"
-* `git reflog` # track garbages for 30 days (or so, not sure here :)) --> show commits in order you last referenced them
-* `git checkout <hash>` # bring pointed commit back - you are in detached HEAD state, not on some branch -- all things from here will be eventually deleted permanently
-* `git branch <some_cool_name>` # create new branch with copy of recovered commit(s)
-* `git checkout <some_cool_name>` # ensure that you don't meesed up this shit!
-* ... and don't forget to praise genious who came with this feature
 
