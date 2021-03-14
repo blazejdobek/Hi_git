@@ -3,14 +3,14 @@
 2. [Gather information about repository](https://github.com/blazejdobek/Hi_git/blob/master/README.md#gather-information-about-repository)
 3. [Git stash](https://github.com/blazejdobek/Hi_git/blob/master/README.md#git-stash)
 4. [Modify commits](https://github.com/blazejdobek/Hi_git/blob/master/README.md#modify-commits)
-5. [Undoing changes that aren't on staged area]()
+5. [Undoing changes that aren't on staged area](https://github.com/blazejdobek/Hi_git/blob/master/README.md#undoing-changes-that-arent-on-staged-area)
 6. 
 7. 
 8. [You need to change git history, but other people already download those changes]()
 
 ------------------------------------------------------------------------------------
 
-### Standard workflow
+1) ### Standard workflow
 1) `git clone <url> <where to clone>`
 2) `git branch <branch_name>`
 3) `git checkout <branch_name>`
@@ -32,26 +32,14 @@
 
 ------------------------------------------------------------------------------------
 
-### Gather information about repository
+2) ### Gather information about repository
 * `git remote -v` # from where code is fetch and to where code is push
 * `git branch -a` # list of all branches (locally and remotely)
 * `git branch --merged` # branches merged to current branch so far
 
 ------------------------------------------------------------------------------------
 
-### Undoing changes that aren't on staged area
-`git checkout <file>` # undoing changes in file, which is not on staged area
-
-------------------------------------------------------------------------------------
-
-### Modify commits
-* `git commit --amend -m "Correct message"` # changing message in last commit. This will change unique hash assigned to ech commit --> change git history. You want to change history only when you are the only one who have acces to those changes. 
-* `git commit --amend` # adding file(s) on your current staged area to last commit. This will change git history. Btw you can also change message from here.
-* `git log --stat` # to ensure that you haven't screwed up things
-
-------------------------------------------------------------------------------------
-
-### Git stash
+3) ### Git stash
 --> tip: stash are shared by all branches
 * `git stash save "Pro memoria"`
 * `git stash list`
@@ -59,6 +47,22 @@
 * `git stash pop` # apply first stash and delete it -- stash list working just like stack
 * `git stash drop <stash_id>` # just delete given stash
 * `git stash clean` # beware! --> delete all stash
+
+------------------------------------------------------------------------------------
+
+4) ### Undoing changes that aren't on staged area
+`git checkout <file>` # undoing changes in file, which is not on staged area
+
+------------------------------------------------------------------------------------
+
+5) ### Modify commits
+* `git commit --amend -m "Correct message"` # changing message in last commit. This will change unique hash assigned to ech commit --> change git history. You want to change history only when you are the only one who have acces to those changes. 
+* `git commit --amend` # adding file(s) on your current staged area to last commit. This will change git history. Btw you can also change message from here.
+* `git log --stat` # to ensure that you haven't screwed up things
+
+------------------------------------------------------------------------------------
+
+
 
 ------------------------------------------------------------------------------------
 
