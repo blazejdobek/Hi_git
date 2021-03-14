@@ -1,9 +1,9 @@
 # Table of Contents
-1. [Standard workflow]()
-2. [Gather information about repository](#example2)
-3. [Undoing changes that aren't on staged area](#third-example)
-4. [Modify commits](#fourth-examplehttpwwwfourthexamplecom)
-5. [Git stash](#fourth-examplehttpwwwfourthexamplecom)
+1. [Standard workflow](https://github.com/blazejdobek/Hi_git/blob/master/README.md#standard-workflow)
+2. [Gather information about repository](https://github.com/blazejdobek/Hi_git/blob/master/README.md#gather-information-about-repository)
+3. [Undoing changes that aren't on staged area]()
+4. [Modify commits]()
+5. [Git stash]()
 6. [You need to change git history, but other people already download those changes]()
 
 ### Standard workflow
