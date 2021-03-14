@@ -8,7 +8,7 @@
 7. [You need to change git history, but other people already download those changes](https://github.com/blazejdobek/Hi_git/blob/master/README.md#you-need-to-change-git-history-but-other-people-already-download-those-changes)
 8. ["Those changes you delete with git reset --hard -> we need them and we need them NOW!"](https://github.com/blazejdobek/Hi_git/blob/master/README.md#those-changes-you-delete-with-git-reset---hard---we-need-them-and-we-need-them-now)
 9. [Other](https://github.com/blazejdobek/Hi_git/blob/master/README.md#other)
-
+10) [More materials]()
 ------------------------------------------------------------------------------------
 
 ### Standard workflow
@@ -97,5 +97,10 @@
 
 ------------------------------------------------------------------------------------
 
+### More materials
+* [pull-request-tutorial-for-students](https://michalczukm.github.io/pull-request-tutorial-for-students/)
+* [How to Contribute to Open Source](https://opensource.guide/how-to-contribute/)
+* [Complete guide to open source](https://www.youtube.com/watch?v=yzeVMecydCE&list=WL&index=2)
+* [17 ways to undo mistakes with git](https://www.youtube.com/watch?v=lX9hsdsAeTk&list=WL&index=3)
 
 
