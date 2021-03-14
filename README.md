@@ -25,12 +25,6 @@
 * `git branch -a` # list of all branches (locally and remotely)
 * `git branch --merged` # branches merged to current branch so far
 
-### Other
-* `git add .` // `git add <some_location>` // `git add -A` # -A add all files from entire files tree, even from up-directories. In contrast - . don't add files from up-directories.
-* `git add -u` // `git add -u <some_location>` # update, don't add any new files
-
-------------------------------------------------------------------------------------
-
 ### Undoing changes that aren't on staged area
 `git checkout <file>` # undoing changes in file, which is not on staged area
 
@@ -38,6 +32,24 @@
 * `git commit --amend -m "Correct message"` # changing message in last commit. This will change unique hash assigned to ech commit --> change git history. You want to change history only when you are the only one who have acces to those changes. 
 * `git commit --amend` # adding file(s) on your current staged area to last commit. This will change git history. Btw you can also change message from here.
 * `git log --stat` # to ensure that you haven't screwed up things
+
+### Git stash
+--> tip: stash are shared by all branches
+* `git stash save "Pro memoria"`
+* `git stash list`
+* `git stash apply <stash_id>`
+* `git stash pop` # apply first stash and delete it -- stash list working just like stack
+* `git stash drop <stash_id>` # just delete given stash
+* `git stash clean` # beware! --> delete all stash
+
+
+### Other
+* `git add .` // `git add <some_location>` // `git add -A` # -A add all files from entire files tree, even from up-directories. In contrast - . don't add files from up-directories.
+* `git add -u` // `git add -u <some_location>` # update, don't add any new files
+
+------------------------------------------------------------------------------------
+
+
 
 ### You realised that you make changes // comiits to wrong branch
 git log # to copy unique hash of your commit -> you don't have to copy all hash :)
@@ -67,12 +79,3 @@ git checkout <some_cool_name> # ensure that you don't meesed up this shit!
 # Solution: make a commit which revert your changes.
 git revert <hash> # this will add new commit with message "Revert 'commit message
 # with given id (hash)'"
-
-### Git stash
---> tip: stash are shared by all branches
-* `git stash save "Pro memoria"`
-* `git stash list`
-* `git stash apply <stash_id>`
-* `git stash pop` # apply first stash and delete it -- stash list working just like stack
-* `git stash drop <stash_id>` # just delete given stash
-* `git stash clean` # beware! --> delete all stash
