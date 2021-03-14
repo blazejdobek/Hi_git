@@ -74,9 +74,9 @@ l_letter_matrix=(
 "1 1 1 1"
 "0 0 0 0")
 
-m_letter_matrix=(
+n_letter_matrix=(
 "0 0 0 0"
-"1 0 0 1"
+"0 0 0 0"
 "1 1 1 1"
 "1 0 0 1"
 "1 0 0 1"
