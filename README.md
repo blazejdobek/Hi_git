@@ -8,7 +8,7 @@
 7. [You need to change git history, but other people already download those changes](https://github.com/blazejdobek/Hi_git/blob/master/README.md#you-need-to-change-git-history-but-other-people-already-download-those-changes)
 8. ["Those changes you delete with git reset --hard -> we need them and we need them NOW!"](https://github.com/blazejdobek/Hi_git/blob/master/README.md#those-changes-you-delete-with-git-reset---hard---we-need-them-and-we-need-them-now)
 9. [Other](https://github.com/blazejdobek/Hi_git/blob/master/README.md#other)
-10) [More materials](https://www.youtube.com/watch?v=yzeVMecydCE&list=WL&index=2)
+10) [More materials](https://github.com/blazejdobek/Hi_git#more-materials)
 ------------------------------------------------------------------------------------
 
 ### Standard workflow
