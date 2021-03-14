@@ -20,15 +20,14 @@
 
 ------------------------------------------------------------------------------------
 
-# Gather information about repository
-git remote -v # from where code is fetch and to where code is push
-git branch -a # list of all branches (locally and remotely)
-git branch --merged # branches merged to current branch so far
+### Gather information about repository
+`git remote -v` # from where code is fetch and to where code is push
+`git branch -a` # list of all branches (locally and remotely)
+`git branch --merged` # branches merged to current branch so far
 
-# Other
-git add . // git add <some_location> // git add -A # -A add all files from entire 
-# files tree, even from up-directories. In contrast - . don't add files from up-directories.
-git add -u // git add -u <some_location> # update, don't add any new files
+### Other
+`git add .` // `git add <some_location>` // `git add -A` # -A add all files from entire files tree, even from up-directories. In contrast - . don't add files from up-directories.
+`git add -u` // `git add -u <some_location>` # update, don't add any new files
 
 ------------------------------------------------------------------------------------
 
