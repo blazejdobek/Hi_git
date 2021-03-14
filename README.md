@@ -74,13 +74,10 @@
 	* `git reset --hard <hash>` # revert all tracked files to state they were, but leave untracked files alone
 	* `git clean -df` # f for files, d for directors --> remove all untracked dirs and files
 
-### "Those changes you delete with git reset --hard -> we need them and we need 
-# them NOW!"
-git reflog # track garbages for 30 days (or so, not sure here :)) --> show commits
-# in order you last referenced them
-git checkout <hash> # bring pointed commit back - you are in detached HEAD state, not
-# on some branch -- all things from here will be eventually deleted permanently
-git branch <some_cool_name> # create new branch with copy of recovered commit(s)
-git checkout <some_cool_name> # ensure that you don't meesed up this shit!
-# And don't forget to praise genious who came with this feature
+### "Those changes you delete with git reset --hard -> we need them and we need them NOW!"
+* `git reflog` # track garbages for 30 days (or so, not sure here :)) --> show commits in order you last referenced them
+* `git checkout <hash>` # bring pointed commit back - you are in detached HEAD state, not on some branch -- all things from here will be eventually deleted permanently
+* `git branch <some_cool_name>` # create new branch with copy of recovered commit(s)
+* `git checkout <some_cool_name>` # ensure that you don't meesed up this shit!
+* ... and don't forget to praise genious who came with this feature
 
