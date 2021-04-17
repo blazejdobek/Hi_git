@@ -15,8 +15,8 @@ Hi, Hey, Yo, Ohayo, Salute,
 
 ### Standard workflow
 1) `git clone <url> <where to clone>`
-2) `git branch <branch_name>`
-3) `git checkout <branch_name>`
+2) `git branch <branch_name>` or `git checkout -b <branch_name>` (step 2 and 3)
+3) `git checkout <branch_name>` 
 4) > Some work happen here'
 5) `git diff`
 6) `git add <file> // git add .`
