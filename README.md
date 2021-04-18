@@ -22,7 +22,7 @@ Hi, Hey, Yo, Ohayo, Salute,
 6) `git add <file> // git add .`
 7) `git commit -m "SOME TEXT - USE VERBS"`
 8) `git status`
-9) `git push -u orgin <branch_name>` # first push on new branch - it tells git to associate local <branch_name> with remote branch with same name
+9) `git push --set-upstream origin <branch_name>` # first push on new branch - it tells git to associate local <branch_name> with remote branch with same name
 10) `git pull` # every time but first
 11) `git push` # evry time but first
 12) `git checkout master` # switch branch
