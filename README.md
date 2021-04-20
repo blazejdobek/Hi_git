@@ -26,7 +26,7 @@ Hi, Hey, Yo, Ohayo, Salute,
 10) `git pull` # every time but first
 11) `git push` # evry time but first
 12) `git checkout <master>` # switch branch
-13) `git pull orgin <master>` # make sure to work on newest version on codebase
+13) `git pull origin <master>` # make sure to work on newest version on codebase
 14) `git merge <branch_name>` # MERGE TIME!
 15) `git push origin <master>`
 16) `git branch --merged` # confirme that we can delete our branch
