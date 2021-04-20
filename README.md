@@ -25,10 +25,10 @@ Hi, Hey, Yo, Ohayo, Salute,
 9) `git push --set-upstream origin <branch_name>` # first push on new branch - it tells git to associate local <branch_name> with remote branch with same name
 10) `git pull` # every time but first
 11) `git push` # evry time but first
-12) `git checkout master` # switch branch
-13) `git pull orgin master` # make sure to work on newest version on codebase
+12) `git checkout <master>` # switch branch
+13) `git pull orgin <master>` # make sure to work on newest version on codebase
 14) `git merge <branch_name>` # MERGE TIME!
-15) `git push origin master`
+15) `git push origin <master>`
 16) `git branch --merged` # confirme that we can delete our branch
 17) `git branch -d <branch_name>` # delete branch only locally`
 18) `git push origin --delete <branch_name>`
