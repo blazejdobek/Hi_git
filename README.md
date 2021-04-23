@@ -49,7 +49,7 @@ Hi, Hey, Yo, Ohayo, Salute,
 * `git stash apply <stash_id>`
 * `git stash pop` # apply first stash and delete it -- stash list working just like stack
 * `git stash drop <stash_id>` # just delete given stash
-* `git stash clean` # beware! --> delete all stash
+* `git stash clear` # beware! --> delete all stash
 
 ------------------------------------------------------------------------------------
 
