@@ -104,6 +104,6 @@ Hi, Hey, Yo, Ohayo, Salute,
 * [How to Contribute to Open Source](https://opensource.guide/how-to-contribute/)
 * [Complete guide to open source](https://www.youtube.com/watch?v=yzeVMecydCE&list=WL&index=2)
 * [17 ways to undo mistakes with git](https://www.youtube.com/watch?v=lX9hsdsAeTk&list=WL&index=3)
-* [CI/CD](https://www.youtube.com/playlist?list=PLOLrQ9Pn6caz3miP7Y-y9q6AyEeGcXRFq)
+* [CI/CD](https://www.youtube.com/playlist?list=PLOLrQ9Pn6caz3miP7Y-y9q6AyEeGcXRFq), [docker --> django, celery, postgreSQL, reddis, react](https://www.youtube.com/watch?v=W5Ov0H7E_o4&list=PLOLrQ9Pn6cazCfL7v4CdaykNoWMQymM_C)
 
 
