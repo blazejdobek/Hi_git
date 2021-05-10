@@ -105,5 +105,6 @@ Hi, Hey, Yo, Ohayo, Salute,
 * [Complete guide to open source](https://www.youtube.com/watch?v=yzeVMecydCE&list=WL&index=2)
 * [17 ways to undo mistakes with git](https://www.youtube.com/watch?v=lX9hsdsAeTk&list=WL&index=3)
 * [CI/CD](https://www.youtube.com/playlist?list=PLOLrQ9Pn6caz3miP7Y-y9q6AyEeGcXRFq), [docker --> django, celery, postgreSQL, reddis, react](https://www.youtube.com/watch?v=W5Ov0H7E_o4&list=PLOLrQ9Pn6cazCfL7v4CdaykNoWMQymM_C)
+* docker --> [1](https://www.youtube.com/watch?v=0Rq1aw8ppMk&list=WL&index=2), [2](https://www.youtube.com/watch?v=FCk5ylLjnxw&list=WL&index=3), [3](https://www.youtube.com/watch?v=o6o5N4S5k84&list=WL&index=4). [4](https://www.youtube.com/watch?v=H3N3-S7s8IY&list=WL&index=5), [5](https://www.youtube.com/watch?v=wZbPmb4soTI&list=WL&index=6), [6](https://www.youtube.com/watch?v=eJrR1X38pk4&list=WL&index=7), [7](https://www.youtube.com/watch?v=oBQxFn1CDno&list=WL&index=8), [8](https://www.youtube.com/watch?v=Oy71OgKZbOQ&list=WL&index=9)
 
 
