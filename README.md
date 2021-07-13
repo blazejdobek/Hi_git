@@ -123,9 +123,10 @@ Hi, Hey, Yo, Ohayo, Salute,
 ### Other
 * `git add .` // `git add <some_location>` // `git add -A` # -A add all files from entire files tree, even from up-directories. In contrast - . don't add files from up-directories.
 * `git add -u` // `git add -u <some_location>` # update, don't add any new files
+
 ``` diff
 - Do usunięcia
-+ Do dodania
++ Create new repo with same name as your github handler to customize your profile
 ```
 
 ------------------------------------------------------------------------------------
