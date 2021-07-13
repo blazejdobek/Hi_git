@@ -9,8 +9,9 @@ Hi, Hey, Yo, Ohayo, Salute,
 6. [You realised that you make changes // comiits to wrong branch](https://github.com/blazejdobek/Hi_git/blob/master/README.md#you-realised-that-you-make-changes--comiits-to-wrong-branch)
 7. [You need to change git history, but other people already download those changes](https://github.com/blazejdobek/Hi_git/blob/master/README.md#you-need-to-change-git-history-but-other-people-already-download-those-changes)
 8. ["Those changes you delete with git reset --hard -> we need them and we need them NOW!"](https://github.com/blazejdobek/Hi_git/blob/master/README.md#those-changes-you-delete-with-git-reset---hard---we-need-them-and-we-need-them-now)
-9. [Other](https://github.com/blazejdobek/Hi_git/blob/master/README.md#other)
-10) [More materials](https://github.com/blazejdobek/Hi_git#more-materials)
+9. [Git branches](https://github.com/blazejdobek/Hi_git/blob/master/README.md#git-branches)
+10. [Other](https://github.com/blazejdobek/Hi_git/blob/master/README.md#other)
+11) [More materials](https://github.com/blazejdobek/Hi_git#more-materials)
 ------------------------------------------------------------------------------------
 
 ### Standard workflow
@@ -31,7 +32,7 @@ Hi, Hey, Yo, Ohayo, Salute,
 15) `git push origin <master>`
 16) `git branch --merged` # confirme that we can delete our branch
 17) `git branch -d <branch_name>` # delete branch only locally`
-18) `git push origin --delete <branch_name>`
+18) `git push origin --delete <branch_name>` # delete remote branch 
 
 ------------------------------------------------------------------------------------
 
@@ -93,6 +94,21 @@ Hi, Hey, Yo, Ohayo, Salute,
 
 ------------------------------------------------------------------------------------
 
+### Git branches
+* `git branch new-branch <commit_id>` # create ne branch based on given commit, if nothing specified based on current HEAD
+* `git checkout <branch_name>` // `git switch <branch_name>`
+* `git branch -m <new_branch_name>` // `git branch -m <old_name> <new_name>` # renaming branch
+	* `git push orgin --delete <old_name_branch>`
+	* `git push -u orgin <new_name_branch>` # in order to rename remote branch you need to delete old_name_branch and publish new_name_branch
+	* `git push -u orgin <branch>` # publish new branch on remote repo and tracked it with current branch 
+* `git branch --track <local_name_branch> orgin/<remote_name_branch>` # establish connection between two branches (local and remote)
+	* `git checkout --track orgin/<remote_branch_name>` #establish connection between current local branch and given remote branch
+* `git log <branch_name>..<other_branch_name>` # show commits that are in <other_branch_name>, but not in <branch_name>
+* `git checkout <branch_into_you_want_to_make_rebase>` + `git rebase <branch_you_want_to_add>` # git rebase
+
+
+------------------------------------------------------------------------------------
+
 ### Other
 * `git add .` // `git add <some_location>` // `git add -A` # -A add all files from entire files tree, even from up-directories. In contrast - . don't add files from up-directories.
 * `git add -u` // `git add -u <some_location>` # update, don't add any new files
@@ -100,7 +116,7 @@ Hi, Hey, Yo, Ohayo, Salute,
 ------------------------------------------------------------------------------------
 
 ### More materials
-* [pull-request-tutorial-for-students](https://michalczukm.github.io/pull-request-tutorial-for-students/)
 * [How to Contribute to Open Source](https://opensource.guide/how-to-contribute/)
 * [Complete guide to open source](https://www.youtube.com/watch?v=yzeVMecydCE&list=WL&index=2)
 * [17 ways to undo mistakes with git](https://www.youtube.com/watch?v=lX9hsdsAeTk&list=WL&index=3)
+* git rebase --interactive // git squash // merge --squash
