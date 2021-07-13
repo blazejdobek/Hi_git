@@ -8,10 +8,11 @@ Hi, Hey, Yo, Ohayo, Salute,
 5. [Undoing changes that aren't on staged area](https://github.com/blazejdobek/Hi_git/blob/master/README.md#undoing-changes-that-arent-on-staged-area)
 6. [You realised that you make changes // comiits to wrong branch](https://github.com/blazejdobek/Hi_git/blob/master/README.md#you-realised-that-you-make-changes--comiits-to-wrong-branch)
 7. [You need to change git history, but other people already download those changes](https://github.com/blazejdobek/Hi_git/blob/master/README.md#you-need-to-change-git-history-but-other-people-already-download-those-changes)
-8. ["Those changes you delete with git reset --hard -> we need them and we need them NOW!"](https://github.com/blazejdobek/Hi_git/blob/master/README.md#those-changes-you-delete-with-git-reset---hard---we-need-them-and-we-need-them-now)
-9. [Git branches](https://github.com/blazejdobek/Hi_git/blob/master/README.md#git-branches)
-10. [Other](https://github.com/blazejdobek/Hi_git/blob/master/README.md#other)
-11) [More materials](https://github.com/blazejdobek/Hi_git#more-materials)
+8. [You commit, but realise that there are mistakes, which you fix via another commit. After quick thinking -- you make git history looks like shit!](https://github.com/blazejdobek/Hi_git/blob/master/README.md#you-need-to-change-git-history-but-other-people-already-download-those-changes)
+9. ["Those changes you delete with git reset --hard -> we need them and we need them NOW!"](https://github.com/blazejdobek/Hi_git/blob/master/README.md#those-changes-you-delete-with-git-reset---hard---we-need-them-and-we-need-them-now)
+10. [Git branches](https://github.com/blazejdobek/Hi_git/blob/master/README.md#git-branches)
+11. [Other](https://github.com/blazejdobek/Hi_git/blob/master/README.md#other)
+12. [More materials](https://github.com/blazejdobek/Hi_git#more-materials)
 ------------------------------------------------------------------------------------
 
 ### Standard workflow
@@ -85,6 +86,14 @@ Hi, Hey, Yo, Ohayo, Salute,
 
 ------------------------------------------------------------------------------------
 
+------------------------------------------------------------------------------------
+
+### You commit, but realise that there are mistakes, which you fix via another commit. After quick thinking -- if you just commit it will make git history looks like shit!
+* `git add <file_name>` + `git commit --fixup <commit_id_of_incomplete_commit>`
+* `git rebase -i <how_far_you_need_go_back> --autosquash` # fun fact -> you don't need to do anything more - just :wq from this text editor ASAP!
+
+------------------------------------------------------------------------------------
+
 ### "Those changes you delete with git reset --hard -> we need them and we need them NOW!"
 * `git reflog` # track garbages for 30 days (or so, not sure here :)) --> show commits in order you last referenced them
 * `git checkout <hash>` # bring pointed commit back - you are in detached HEAD state, not on some branch -- all things from here will be eventually deleted permanently
@@ -120,5 +129,4 @@ Hi, Hey, Yo, Ohayo, Salute,
 ### More materials
 * [How to Contribute to Open Source](https://opensource.guide/how-to-contribute/)
 * [Complete guide to open source](https://www.youtube.com/watch?v=yzeVMecydCE&list=WL&index=2)
-* [17 ways to undo mistakes with git](https://www.youtube.com/watch?v=lX9hsdsAeTk&list=WL&index=3)
 * git rebase --interactive // git squash // merge --squash
