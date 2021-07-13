@@ -132,5 +132,5 @@ Hi, Hey, Yo, Ohayo, Salute,
 ------------------------------------------------------------------------------------
 
 ### More materials
-* [How to Contribute to Open Source](https://opensource.guide/how-to-contribute/)
+* [How to Contribute to Open Source](https://github.com/freeCodeCamp/how-to-contribute-to-open-source)
 * git rebase --interactive // git squash // merge --squash
