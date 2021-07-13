@@ -128,5 +128,4 @@ Hi, Hey, Yo, Ohayo, Salute,
 
 ### More materials
 * [How to Contribute to Open Source](https://opensource.guide/how-to-contribute/)
-* [Complete guide to open source](https://www.youtube.com/watch?v=yzeVMecydCE&list=WL&index=2)
 * git rebase --interactive // git squash // merge --squash
