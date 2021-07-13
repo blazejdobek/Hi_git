@@ -105,6 +105,8 @@ Hi, Hey, Yo, Ohayo, Salute,
 	* `git checkout --track orgin/<remote_branch_name>` #establish connection between current local branch and given remote branch
 * `git log <branch_name>..<other_branch_name>` # show commits that are in <other_branch_name>, but not in <branch_name>
 * `git checkout <branch_into_you_want_to_make_rebase>` + `git rebase <branch_you_want_to_add>` # git rebase
+	* <img src="https://ibb.co/YBxcHnF" alt="Git merge" border="0">
+	* <img src="https://ibb.co/2KRJL1b" alt="Git rebase" border="0">
 
 
 ------------------------------------------------------------------------------------
