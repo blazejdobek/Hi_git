@@ -8,7 +8,7 @@ Hi, Hey, Yo, Ohayo, Salute,
 5. [Undoing changes that aren't on staged area](https://github.com/blazejdobek/Hi_git/blob/master/README.md#undoing-changes-that-arent-on-staged-area)
 6. [You realised that you make changes // comiits to wrong branch](https://github.com/blazejdobek/Hi_git/blob/master/README.md#you-realised-that-you-make-changes--comiits-to-wrong-branch)
 7. [You need to change git history, but other people already download those changes](https://github.com/blazejdobek/Hi_git/blob/master/README.md#you-need-to-change-git-history-but-other-people-already-download-those-changes)
-8. [You commit, but realise that there are mistakes, which you fix via another commit. After quick thinking -- you make git history looks like shit!](https://github.com/blazejdobek/Hi_git/blob/master/README.md#you-need-to-change-git-history-but-other-people-already-download-those-changes)
+8. [You commit, but realise that there are mistakes, which you fix via another commit. After quick thinking -- you make git history looks like shit!](https://github.com/blazejdobek/Hi_git#you-commit-but-realise-that-there-are-mistakes-which-you-fix-via-another-commit-after-quick-thinking----if-you-just-commit-it-will-make-git-history-looks-like-shit)
 9. ["Those changes you delete with git reset --hard -> we need them and we need them NOW!"](https://github.com/blazejdobek/Hi_git/blob/master/README.md#those-changes-you-delete-with-git-reset---hard---we-need-them-and-we-need-them-now)
 10. [Git branches](https://github.com/blazejdobek/Hi_git/blob/master/README.md#git-branches)
 11. [Other](https://github.com/blazejdobek/Hi_git/blob/master/README.md#other)
